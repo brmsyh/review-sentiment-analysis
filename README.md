@@ -1,7 +1,7 @@
 # Customer Review Sentiment Analysis
 **Voice-of-Customer intelligence for a consumer electronics brand — end-to-end data science case study**
 
-🔗 **Live demo:** `https://<your-app-name>.streamlit.app` ← replace after deploying
+🔗 **Live demo:** `https://brmsyh-sentiment-analysis.streamlit.app`
 
 ![Monthly negative share](images/negative_trend.png)
 
