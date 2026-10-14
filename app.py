@@ -207,7 +207,7 @@ with st.sidebar:
     c2.metric("Neg. recall", "0.885")
     st.markdown("**Model:** tuned Logistic Regression + TF-IDF (1–2 grams)")
     st.caption("Company and product names are fictional. Dataset built to mirror a real review export.")
-    st.markdown("Built by **Yunido Baheramsyah**  \n[GitHub repository](https://github.com/)")
+    st.markdown("Built by **Yunido Baheramsyah**  \n[GitHub repository](https://github.com/brmsyh/review-sentiment-analysis)")
 
 st.title("Customer Review Sentiment Analyzer")
 st.write("Classify customer reviews, support tickets or social comments as **positive**, "
