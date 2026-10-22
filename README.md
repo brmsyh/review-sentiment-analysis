@@ -3,6 +3,7 @@
 
 🔗 **Live demo:** `https://brmsyh-sentiment-analysis.streamlit.app`
 
+![App screenshot](images/app.png)
 ![Monthly negative share](images/negative_trend.png)
 
 ## Business Problem
@@ -32,7 +33,7 @@ review-sentiment-analysis/
 ├── app.py                           # Streamlit demo app (single + batch prediction, dashboard)
 ├── .streamlit/config.toml           # app theme
 ├── data/customer_reviews.csv        # raw review dataset (6,130 rows)
-├── images/                          # charts for the README / portfolio
+├── images/                          # charts 
 ├── models/best_model_sentiment.pkl  # full pipeline (preprocessing + model)
 ├── notebook.ipynb                   # main analysis: Introduction → Conclusion
 ├── model_inference.ipynb            # inference on new raw reviews (separate)
@@ -67,7 +68,7 @@ Open `notebook.ipynb` in VS Code, select the `.venv` kernel and click **Run All*
 1. Push this folder to a **public GitHub repository**.
 2. Go to [share.streamlit.io](https://share.streamlit.io), sign in with GitHub and click **Create app**.
 3. Select the repository, branch `main` and main file `app.py`. In **Advanced settings**, choose Python 3.12.
-4. Click **Deploy**. Copy the app URL into this README and into your Upwork/LinkedIn portfolio.
+4. Click **Deploy**. Copy the app URL into this README.
 
 > The saved `.pkl` was created with scikit-learn 1.9.1. If you use a different version, run `notebook.ipynb` again to regenerate the model.
 
