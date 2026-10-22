@@ -1,9 +1,10 @@
 # Customer Review Sentiment Analysis
-**Voice-of-Customer intelligence for a consumer electronics brand — end-to-end data science case study**
+**Voice-of-Customer intelligence for a consumer electronics brand - end-to-end data science case study**
 
 🔗 **Live demo:** `https://brmsyh-sentiment-analysis.streamlit.app`
 
 ![App screenshot](images/app.png)
+
 ![Monthly negative share](images/negative_trend.png)
 
 ## Business Problem
@@ -11,7 +12,7 @@ A U.S.-based direct-to-consumer **consumer electronics** company (audio, wearabl
 
 **Goal:** build a model that classifies reviews as **positive / neutral / negative** from the text alone (no star rating), and find what drives negative sentiment.
 
-> ℹ️ **About the data:** this case study uses a purpose-built dataset (`generate_dummy_data.py`) that replicates the structure, noise and business patterns of a real e-commerce review export.
+> **About the data:** this case study uses a purpose-built dataset (`generate_dummy_data.py`) that replicates the structure, noise and business patterns of a real e-commerce review export.
 
 ## Results
 | Metric (hold-out test set, 1,177 reviews) | Target | Result |
@@ -46,10 +47,10 @@ review-sentiment-analysis/
 ## Streamlit App
 | Tab | What it does |
 |---|---|
-| 🔍 Single review | Type any review or ticket → sentiment, confidence and class probabilities |
-| 📂 Batch prediction | Upload a CSV → scored file with a priority queue for the CX team (download as CSV) |
-| 📊 Insights dashboard | Negative-share trend, sentiment by product and complaint drivers, with filters |
-| ℹ️ About the model | Approach, leakage control and test-set results |
+| Single review | Type any review or ticket → sentiment, confidence and class probabilities |
+| Batch prediction | Upload a CSV → scored file with a priority queue for the CX team (download as CSV) |
+| Insights dashboard | Negative-share trend, sentiment by product and complaint drivers, with filters |
+| About the model | Approach, leakage control and test-set results |
 
 ## Notebook Outline
 I. Introduction · II. Business Objectives · III. SMART Method · IV. Import Libraries · V. Load Dataset · VI. Data Cleaning · VII. EDA (8 analyses) · VIII. Feature Engineering (text features, cardinality check, data split, outlier detection & handling, feature selection, scaling & encoding) · IX. Model Definition · X. Model Training · XI. Model Evaluation (incl. tuning, interpretation, error analysis) · XII. Model Saving · XIII. Model Inference (separate notebook) · XIV. Conclusion
